@@ -22,7 +22,7 @@ return new class extends Migration
             $table->time('arrival_time', $precision = 4);
             $table->mediumInteger('train_code');
             $table->tinyInteger('train_carriage');
-            $table->timestamp('in_time', $precision = 4);
+            $table->boolean('in_time');
             $table->timestamps();
         });
     }

@@ -12,21 +12,50 @@
     <body>
 
         <main>
-            <div class="container">
-                <div class="row">
-                    <div class="col text-center">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Compagnia</th>
+                <th scope="col">Stazione di Partenza</th>
+                <th scope="col">Stazione di Arrivo</th>
+                <th scope="col">Orario di Partenza</th>
+                <th scope="col">Orario di Arrivo</th>
+                <th scope="col">Codice Treno</th>
+                <th scope="col">In Orario</th>
 
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="{{ Vite::asset('resources/img/laravel.png') }}" alt="">
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>Otto</td>
+                <td>Otto</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>Otto</td>
+                <td>Otto</td>
 
-                                <h1 class="card-title">Laravel 9 + Bootstrap Template</h1>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>Otto</td>
+                <td>Otto</td>
+              </tr>
+            </tbody>
+          </table>
         </main>
 
     </body>
